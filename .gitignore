@@ -1,0 +1,13 @@
+# Nix build output symlink
+result
+result-*
+
+# direnv
+.direnv
+
+# SOPS age private key (never commit)
+*.age
+
+# Editor
+.idea/
+.vscode/
